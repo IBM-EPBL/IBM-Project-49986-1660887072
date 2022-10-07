@@ -14,8 +14,7 @@
 
 ## Aim
 
-To develop a problem statement for a Novel Method For Handwritten Digit
-Recognition System.
+To develop a model for recognition of handwritten digits from the image. 
 
 ## Problem Statement
 Handwriting recognition is one of the compelling research works going on
