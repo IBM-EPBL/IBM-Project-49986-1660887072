@@ -14,7 +14,8 @@
 
 ## Aim
 
-To develop a model for recognition of handwritten digits from the image. 
+To develop a problem statement for a Novel Method For Handwritten Digit
+Recognition System.
 
 ## Problem Statement
 Handwriting recognition is one of the compelling research works going on
@@ -29,4 +30,21 @@ created where the user can upload an image of a handwritten digit. This image is
 analyzed by the model and the detected result is returned on to the UI. In the Banking
 Sector too where more handwritten numbers are involved like account number, figure of
 cash and cheques.
- 
+## Project Objectives
+
+
+- Know fundamental concepts and techniques of the Artificial Neural Network and Convolution Neural Networks
+
+- Gain a broad understanding of image data.
+
+- Work with Sequential type of modelling with Keras capabilities
+
+- Work with image processing techniques
+## Tech Stack
+
+**UI:** HTML , CSS, JS
+
+**Model:** Machine Learning, Deep Learning
+
+**Backend :** Python
+
