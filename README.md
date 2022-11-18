@@ -48,3 +48,4 @@ cash and cheques.
 
 **Backend :** Python
 
+**Project Demo Link :** https://drive.google.com/file/d/1p__0o8ukmM1yq6vT-S4JD-RmARENFN8s/view?usp=sharing
