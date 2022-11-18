@@ -8,10 +8,11 @@ from keras.models import load_model
 from keras.preprocessing import image
 from flask import send_from_directory
 
-UPLOAD_FOLDER = 'C:/Users/Dell/PycharmProjects/A-novel-method-for-digit-recognition-system/flask_app/uploads'
+UPLOAD_FOLDER = r'F:\Classification\virtual\Sprint 3\Upload'
 
 
-app = Flask(__name__)
+#app = Flask(__name__)
+app = Flask(__name__, template_folder='template')
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
 model = load_model("mnistCNN.h5")
@@ -28,7 +29,6 @@ def upload():
         f = request.files["image"]
         filepath = secure_filename(f.filename)
         f.save(os.path.join(app.config['UPLOAD_FOLDER'], filepath))
-
         upload_img = os.path.join(UPLOAD_FOLDER, filepath)
         img = Image.open(upload_img).convert("L")  # convert image to monochrome
         img = img.resize((28, 28))  # resizing of input image
